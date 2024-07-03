@@ -17,7 +17,6 @@ sites:
     url: https://www.puce.edu.ec/
   - name: EPN
     https://www.epn.edu.ec/
-    
     port: 80
     check: "tcp-ping"
     ipv6: true
