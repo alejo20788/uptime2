@@ -17,9 +17,9 @@ sites:
     url: https://www.puce.edu.ec/
   - name: UCE
     url: https://www.uce.edu.ec/
-    #port: 80
-    #check: "tcp-ping"
-    #ipv6: true
+    port: 80
+    check: "tcp-ping"
+    ipv6: true
     
 
 status-website:
