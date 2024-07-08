@@ -14,12 +14,12 @@ sites:
   - name: IPv6 test
     url: forwardemail.net
   - name: PUCE
-    url: https://www.puce.edu.ec
+    url: https://www.puce.edu.ec/
   - name: UCE
-    url: https://www.uce.edu.ec
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+    url: https://www.uce.edu.ec/
+    #port: 80
+    #check: "tcp-ping"
+    #ipv6: true
     
 
 status-website:
